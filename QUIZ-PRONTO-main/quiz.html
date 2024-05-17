@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--concluido-->
+
+<body>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Regras do Quiz-Conjuctions</span></div>
+        <div class="info-list">
+            <div class="info">1. you have <span>15 seconds</span> per question. after this, the quiz go restart or the
+                time is over. </div>
+            <div class="info">2. after checked your answer, cannot select other answer</div>
+            <div class="info">3. Good Lucky!</div>
+        </div>
+        <div class="buttons">
+            <button class="restart">Next</button>
+        </div>
+    </div>
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz sobre Ingles</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo Restante</div>
+                <div class="timer_sec"></div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="complete_text">Congratulations!!!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Restart</button>
+            <button class="quit">CLICA AQUI POR FAVOR</button>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+</html>
